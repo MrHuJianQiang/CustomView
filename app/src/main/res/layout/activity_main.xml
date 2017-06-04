@@ -26,7 +26,7 @@
        android:id="@+id/custom_view"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
-       custom:titleText="自定义TextView"
+       custom:titleText="自定义TextViewgf"
        custom:titleTextColor="#ff0000"
        custom:titleTextSize="40sp"
        custom:titleBackground="#000"

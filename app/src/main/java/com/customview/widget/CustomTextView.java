@@ -137,20 +137,18 @@ public class CustomTextView extends View{
 
         mPaint.setColor(mTextColor);
 
-
+        fm= mPaint.getFontMetricsInt();
         //bound 为mText所在的矩形，所以mBound.width为mtext的宽度mBound.height为文字的高度
-
-         fm= mPaint.getFontMetricsInt();
         /**
          * 参数含义
          * 第一个为文字，第二个为距离View左边的位置
          * 第三个为距离view top的位置,而top初始指的是文字底部距离view的位置mBound.width() 宽度不是很准确
-         *getHeight()/2+mBound.height()/2 因为mBound.height()不是很准确，所以使用fm
+         *getHeight()/2+mBound.height()/2 因为mBound.height()不是很准确，所以使用fm更加准确
          int startY = ;
          *
          * 第四个为笔
          */
-        canvas.drawText(mText,getWidth()/2-/*mBound.width()/2*/mPaint.measureText(mText)/2,getHeight() / 2 - fm.descent + (fm.bottom - fm.ascent) / 2,mPaint);
+        canvas.drawText(mText,getWidth()/2-/*mBound.width()/2*/mPaint.measureText(mText)/2,getHeight() / 2 - fm.descent + (fm.bottom - fm.top) / 2,mPaint);
     }
 
 
