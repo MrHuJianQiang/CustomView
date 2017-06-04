@@ -3,11 +3,16 @@ package com.customview;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.customview.widget.CustomTextView;
 
+public class MainActivity extends AppCompatActivity {
+    private CustomTextView custom_view;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        custom_view= (CustomTextView) findViewById(R.id.custom_view);
+
+
     }
 }
