@@ -39,4 +39,10 @@
        custom:imageScaleType="center"
        android:layout_margin="10dp"
        />
+   <com.customview.widget.CustomProgressBar
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+      custom:circleWidth="10dp"
+
+       />
 </LinearLayout>
