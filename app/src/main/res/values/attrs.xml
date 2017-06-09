@@ -3,10 +3,13 @@
 
 
     <!--自定义属性，对应CustomTextView-->
-
+    <!--文字颜色-->
     <attr name="titleTextColor" format="color"/>
+    <!--文字大小-->
     <attr name="titleTextSize" format="dimension"/>
+    <!--文字内容-->
     <attr name="titleText" format="string"/>
+    <!--背景颜色-->
     <attr name="titleBackground" format="color"/>
 
     <declare-styleable name="CustomTitleView">
@@ -20,10 +23,15 @@
 
 
     <!--自定义属性，对应CustomImageView-->
+    <!--图片描述-->
     <attr name="imageTitle" format="string"/>
+    <!--图片描述颜色-->
     <attr name="imageTitleColor" format="color"/>
+    <!--图片描述文字大小-->
     <attr name="imageTitleSize" format="dimension"/>
+    <!--图片-->
     <attr name="image" format="reference"/>
+    <!--拉伸-->
     <attr name="imageScaleType">
         <enum name="filLXY" value="0"/>
         <enum name="center" value="1"/>
@@ -40,9 +48,13 @@
 
 
     <!--自定义属性 对应CustomProgressBar -->
+    <!--第一圈颜色-->
     <attr name="firstColor" format="color"/>
+    <!--第二圈颜色-->
     <attr name="secondColor" format="color"/>
+    <!--环的宽度-->
     <attr name="circleWidth" format="dimension"/>
+    <!--速度-->
     <attr name="speed"  format="integer"/>
 
     <declare-styleable name="CustomProgress">
@@ -50,6 +62,31 @@
         <attr name="secondColor"/>
         <attr name="circleWidth"/>
         <attr name="speed"/>
+    </declare-styleable>
+
+
+    <!--自定义属性 对应CustomVolumControlBar-->
+    <!--音量第一圈颜色-->
+    <attr name="volumFirstColor" format="color"/>
+    <!--音量第二圈颜色-->
+    <attr name="volumSecondColor" format="color"/>
+    <!--音量圆环宽度颜色-->
+    <attr name="volumCircleWidth" format="dimension"/>
+    <!--音量点的个数-->
+    <attr name="volumDotCount" format="integer"/>
+    <!--音量每隔小块之间的间隙-->
+    <attr name="volumSpliteSize" format="integer"/>
+    <!--中间图片-->
+    <attr name="volumBg" format="reference"/>
+
+
+    <declare-styleable name="CustomVolum">
+        <attr name="volumFirstColor"/>
+        <attr name="volumSecondColor"/>
+        <attr name="volumCircleWidth"/>
+        <attr name="volumDotCount"/>
+        <attr name="volumSpliteSize"/>
+        <attr name="volumBg"/>
     </declare-styleable>
 
 

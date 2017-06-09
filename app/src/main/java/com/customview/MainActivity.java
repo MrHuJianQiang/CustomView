@@ -10,8 +10,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        custom_view= (CustomTextView) findViewById(R.id.custom_view);
+        setContentView(R.layout.activity_main_viewdrag);
 
 
     }
