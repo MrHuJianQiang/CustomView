@@ -30,6 +30,6 @@ canvas.drawArc（）;<br>
 如果子view为非可点击控件，整个手势都是会直接进去onTouchEvent，在onTouchEvent的DOWN的时候就确定了captureView
 
 
-![图1](../imgs/one.jpg)<br>
+![图1](https://github.com/MrHuJianQiang/CustomView/blob/master/imgs/one.jpg)<br>
 ![图2](../imgs/two.jpg)<br>
 ![图3](../imgs/three.jpg)<br>
