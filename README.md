@@ -31,5 +31,5 @@ canvas.drawArc（）;<br>
 
 
 ![图1](https://github.com/MrHuJianQiang/CustomView/blob/master/imgs/one.jpg)<br>
-![图2](../imgs/two.jpg)<br>
-![图3](../imgs/three.jpg)<br>
+![图2](https://github.com/MrHuJianQiang/CustomView/blob/master/imgs/two.jpg)<br>
+![图3](https://github.com/MrHuJianQiang/CustomView/blob/master/imgs/three.jpg)<br>
